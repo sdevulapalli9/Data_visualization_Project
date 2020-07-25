@@ -1,0 +1,2540 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0614.2338                               -->
+<workbook source-build='2020.2.2 (20202.20.0614.2338)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='INC_2019_data (INC_2019_data)' inline='true' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='postgres.1d3khqv1gr481z1dt14a1024zyq7'>
+            <connection authentication='username-password' class='postgres' dbname='INC_2019_data' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='postgres' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.1d3khqv1gr481z1dt14a1024zyq7' name='INC_2019_data' table='[public].[INC_2019_data]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='postgres.1d3khqv1gr481z1dt14a1024zyq7' name='INC_2019_data' table='[public].[INC_2019_data]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>industry</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[industry]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>industry</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[growth]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>growth</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revenue]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>revenue</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>workers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[workers]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>workers</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>founded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[founded]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>founded</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yrs_on_list</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[yrs_on_list]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>yrs_on_list</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>previous_workers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[previous_workers]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>previous_workers</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metro</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[metro]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>metro</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[INC_2019_data]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8190</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='INC_2019_data' datatype='table' name='[__tableau_internal_object_id__].[INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Founded' datatype='integer' name='[founded]' role='measure' type='quantitative' />
+      <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+      <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+      <column caption='Metro' datatype='string' name='[metro]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Previous Workers' datatype='integer' name='[previous_workers]' role='measure' type='quantitative' />
+      <column caption='Rank' datatype='integer' name='[rank]' role='measure' type='quantitative' />
+      <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Workers' datatype='real' name='[workers]' role='measure' type='quantitative' />
+      <column caption='Yrs On List' datatype='integer' name='[yrs_on_list]' role='measure' type='quantitative' />
+      <column-instance column='[name]' derivation='Attribute' name='[attr:name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[growth]' derivation='Count' name='[cnt:growth:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[growth]' derivation='Max' name='[max:growth:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+      <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[rank]' derivation='Sum' name='[sum:rank:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[workers]' derivation='Sum' name='[sum:workers:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='state, city'>
+          <field>[state]</field>
+          <field>[city]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:industry:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;IT Management&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Advertising &amp; Marketing&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Financial Services&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Consumer Products &amp; Services&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Retail&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;IT Services&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Education&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Real Estate&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Health&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Software&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Construction&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Government Services&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Human Resources&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Business Products &amp; Services&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;IT System Development&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Logistics &amp; Transportation&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Computer Hardware&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[cnt:growth:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[max:growth:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:workers:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[attr:name:nk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:rank:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='INC_2019_data' id='INC_2019_data_CEF9B7EEE4984938AA20D108C7B186DE'>
+            <properties context=''>
+              <relation connection='postgres.1d3khqv1gr481z1dt14a1024zyq7' name='INC_2019_data' table='[public].[INC_2019_data]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Growth Vs Revenue Charlotte'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column-instance column='[industry]' derivation='Attribute' name='[attr:industry:nk]' pivot='key' type='nominal' />
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]'>
+            <groupfilter function='member' level='[none:city:nk]' member='&quot;Charlotte&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk]' direction='DESC' using='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]' />
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;NC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]' />
+              <tooltip column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[attr:industry:nk]' />
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk]' />
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0C880AA2-C764-43C3-926A-6B1EEBDD4A27}' />
+    </worksheet>
+    <worksheet name='Growth Vs Revenue Correlation'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{86A174AC-7F3C-4005-BE03-788A7F816E13}' />
+    </worksheet>
+    <worksheet name='Growth Vs Revenue NC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column-instance column='[industry]' derivation='Attribute' name='[attr:industry:nk]' pivot='key' type='nominal' />
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk]' direction='DESC' using='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]' />
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;NC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]' />
+              <tooltip column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[attr:industry:nk]' />
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk]' />
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C33B9CC7-88B2-4B98-97E6-A2BA2558C949}' />
+    </worksheet>
+    <worksheet name='Growth vs Revenue Vs Workers Charlotte'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[workers]' derivation='Sum' name='[sum:workers:qk]' pivot='key' type='quantitative' />
+            <column caption='Workers' datatype='real' name='[workers]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:workers:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:workers:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]'>
+            <groupfilter function='member' level='[none:city:nk]' member='&quot;Charlotte&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Congruity HR&quot;</bucket>
+              <bucket>&quot;Limited Run Games&quot;</bucket>
+              <bucket>&quot;Victra&quot;</bucket>
+              <bucket>&quot;Pendo&quot;</bucket>
+              <bucket>&quot;TradePending&quot;</bucket>
+              <bucket>&quot;Powerhome Solar&quot;</bucket>
+              <bucket>&quot;The Greer Group&quot;</bucket>
+              <bucket>&quot;Nugget&quot;</bucket>
+              <bucket>&quot;Mako Medical Laboratories&quot;</bucket>
+              <bucket>&quot;Untappd&quot;</bucket>
+              <bucket>&quot;Medisuite&quot;</bucket>
+              <bucket>&quot;AvidXchange&quot;</bucket>
+              <bucket>&quot;Famous Toastery&quot;</bucket>
+              <bucket>&quot;BLDG-25&quot;</bucket>
+              <bucket>&quot;Printful&quot;</bucket>
+              <bucket>&quot;Quantico Tactical&quot;</bucket>
+              <bucket>&quot;Clean Juice&quot;</bucket>
+              <bucket>&quot;eAudit&quot;</bucket>
+              <bucket>&quot;Levvel&quot;</bucket>
+              <bucket>&quot;Directional Services&quot;</bucket>
+              <bucket>&quot;Saprex&quot;</bucket>
+              <bucket>&quot;Raymer Oil Company&quot;</bucket>
+              <bucket>&quot;Stake Center Locating&quot;</bucket>
+              <bucket>&quot;ORC Utility &amp; Infrastructure Land Services&quot;</bucket>
+              <bucket>&quot;Passport&quot;</bucket>
+              <bucket>&quot;MegaCorp Logistics&quot;</bucket>
+              <bucket>&quot;MyComputerCareer&quot;</bucket>
+              <bucket>&quot;Prescient Company&quot;</bucket>
+              <bucket>&quot;PresPro Homes&quot;</bucket>
+              <bucket>&quot;Kaimetrix&quot;</bucket>
+              <bucket>&quot;Transportation Insight&quot;</bucket>
+              <bucket>&quot;Blackstone Fire Control&quot;</bucket>
+              <bucket>&quot;National Coatings&quot;</bucket>
+              <bucket>&quot;Aeroflow Healthcare&quot;</bucket>
+              <bucket>&quot;Walk West&quot;</bucket>
+              <bucket>&quot;DMA Holdings&quot;</bucket>
+              <bucket>&quot;23rd Group&quot;</bucket>
+              <bucket>&quot;LMK Clinical Research Consulting&quot;</bucket>
+              <bucket>&quot;Millhouse Logistics&quot;</bucket>
+              <bucket>&quot;Eva Garland Consulting&quot;</bucket>
+              <bucket>&quot;Proforma Springboard Promotions&quot;</bucket>
+              <bucket>&quot;Tech Talent South&quot;</bucket>
+              <bucket>&quot;Commercial Services&quot;</bucket>
+              <bucket>&quot;Done Right Merchandising&quot;</bucket>
+              <bucket>&quot;RapidOps&quot;</bucket>
+              <bucket>&quot;International Ceramic Construction&quot;</bucket>
+              <bucket>&quot;Axiom Path&quot;</bucket>
+              <bucket>&quot;Symmetry Financial Group&quot;</bucket>
+              <bucket>&quot;Bluechip Retail&quot;</bucket>
+              <bucket>&quot;Neo Prism Solutions&quot;</bucket>
+              <bucket>&quot;Torrent Consulting&quot;</bucket>
+              <bucket>&quot;SMR Holdings&quot;</bucket>
+              <bucket>&quot;1st Choice Construction Management&quot;</bucket>
+              <bucket>&quot;Geo Owl&quot;</bucket>
+              <bucket>&quot;Rent Ready&quot;</bucket>
+              <bucket>&quot;Xtreme Park Adventures&quot;</bucket>
+              <bucket>&quot;Netsertive&quot;</bucket>
+              <bucket>&quot;Grover Gaming&quot;</bucket>
+              <bucket>&quot;Spangler Restoration&quot;</bucket>
+              <bucket>&quot;Kingsmen Software&quot;</bucket>
+              <bucket>&quot;ImagineSoftware&quot;</bucket>
+              <bucket>&quot;WamBam Fence&quot;</bucket>
+              <bucket>&quot;Accelerate Solar&quot;</bucket>
+              <bucket>&quot;Appraisal Nation&quot;</bucket>
+              <bucket>&quot;Bespoke Sports &amp; Entertainment&quot;</bucket>
+              <bucket>&quot;Tresata&quot;</bucket>
+              <bucket>&quot;Emergency Restoration Xperts&quot;</bucket>
+              <bucket>&quot;Fathom Realty&quot;</bucket>
+              <bucket>&quot;Go Fish Digital&quot;</bucket>
+              <bucket>&quot;Zentra&quot;</bucket>
+              <bucket>&quot;Adwerx&quot;</bucket>
+              <bucket>&quot;Proforma BrandCentric Solutions&quot;</bucket>
+              <bucket>&quot;MacGregor Partners&quot;</bucket>
+              <bucket>&quot;Benton Roofing&quot;</bucket>
+              <bucket>&quot;Summus Group&quot;</bucket>
+              <bucket>&quot;Cogent Analytics&quot;</bucket>
+              <bucket>&quot;Worldwide Insurance Network&quot;</bucket>
+              <bucket>&quot;Zenmonics&quot;</bucket>
+              <bucket>&quot;Valiant Solutions&quot;</bucket>
+              <bucket>&quot;Union&quot;</bucket>
+              <bucket>&quot;BridgePoint Construction&quot;</bucket>
+              <bucket>&quot;Enviro-Master International Franchise&quot;</bucket>
+              <bucket>&quot;Opex Technologies&quot;</bucket>
+              <bucket>&quot;United Services Group&quot;</bucket>
+              <bucket>&quot;Nuventra Pharma Sciences&quot;</bucket>
+              <bucket>&quot;Dry Pro Foundation and Crawlspace Specialists&quot;</bucket>
+              <bucket>&quot;McKee Homes&quot;</bucket>
+              <bucket>&quot;Sheds Direct&quot;</bucket>
+              <bucket>&quot;Transportation Impact&quot;</bucket>
+              <bucket>&quot;All American Entertainment&quot;</bucket>
+              <bucket>&quot;Walsingham Group&quot;</bucket>
+              <bucket>&quot;Greasecycle&quot;</bucket>
+              <bucket>&quot;Search Solution Group&quot;</bucket>
+              <bucket>&quot;Consolidated Asset Recovery Systems&quot;</bucket>
+              <bucket>&quot;ITI Communications&quot;</bucket>
+              <bucket>&quot;MYCA Material Handling Solutions&quot;</bucket>
+              <bucket>&quot;USConnect&quot;</bucket>
+              <bucket>&quot;Accelogix&quot;</bucket>
+              <bucket>&quot;Go-Forth Pest Control&quot;</bucket>
+              <bucket>&quot;OnPar Technologies&quot;</bucket>
+              <bucket>&quot;Takeout Central&quot;</bucket>
+              <bucket>&quot;American Builders&quot;</bucket>
+              <bucket>&quot;Mind Your Business&quot;</bucket>
+              <bucket>&quot;Fab-Tec&quot;</bucket>
+              <bucket>&quot;Quicklotz Liquidations&quot;</bucket>
+              <bucket>&quot;Scott Brown Media Group&quot;</bucket>
+              <bucket>&quot;Appogee&quot;</bucket>
+              <bucket>&quot;Unity FI Solutions&quot;</bucket>
+              <bucket>&quot;Mountain Showcase Group&quot;</bucket>
+              <bucket>&quot;LBA Haynes Strand&quot;</bucket>
+              <bucket>&quot;Cloud for Good&quot;</bucket>
+              <bucket>&quot;Bold Construction&quot;</bucket>
+              <bucket>&quot;Devada&quot;</bucket>
+              <bucket>&quot;Local Loyalty Marketing Solutions NC&quot;</bucket>
+              <bucket>&quot;Eanes Heating and Air&quot;</bucket>
+              <bucket>&quot;Jackrabbit Technologies&quot;</bucket>
+              <bucket>&quot;Carolinas IT&quot;</bucket>
+              <bucket>&quot;Keen Decision Systems&quot;</bucket>
+              <bucket>&quot;Portable Oxygen Solutions&quot;</bucket>
+              <bucket>&quot;Nexcom&quot;</bucket>
+              <bucket>&quot;Outer Banks Blue&quot;</bucket>
+              <bucket>&quot;Synchrogistics&quot;</bucket>
+              <bucket>&quot;Teguar Corporation&quot;</bucket>
+              <bucket>&quot;919 Marketing&quot;</bucket>
+              <bucket>&quot;Thorburn Associates&quot;</bucket>
+              <bucket>&quot;Cross Media Corporation&quot;</bucket>
+              <bucket>&quot;Profit Advisory Group&quot;</bucket>
+              <bucket>&quot;Client Savvy&quot;</bucket>
+              <bucket>&quot;Lighthouse Lab Services&quot;</bucket>
+              <bucket>&quot;Open Sky Group&quot;</bucket>
+              <bucket>&quot;Buildingstars of Charlotte&quot;</bucket>
+              <bucket>&quot;Triangle Insights Group&quot;</bucket>
+              <bucket>&quot;OnceLogix&quot;</bucket>
+              <bucket>&quot;First Flight Solutions&quot;</bucket>
+              <bucket>&quot;Corevist&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;NC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]</column>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]' />
+              <tooltip column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+              <tooltip column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Multiple Values]</rows>
+        <cols>([federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk] / [federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk])</cols>
+      </table>
+      <simple-id uuid='{4DB25E3D-A61C-4CA6-90D1-2B0BACF0F5C0}' />
+    </worksheet>
+    <worksheet name='Growth vs Revenue Vs Workers NC'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[workers]' derivation='Sum' name='[sum:workers:qk]' pivot='key' type='quantitative' />
+            <column caption='Workers' datatype='real' name='[workers]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:workers:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:workers:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Congruity HR&quot;</bucket>
+              <bucket>&quot;Limited Run Games&quot;</bucket>
+              <bucket>&quot;Victra&quot;</bucket>
+              <bucket>&quot;Pendo&quot;</bucket>
+              <bucket>&quot;TradePending&quot;</bucket>
+              <bucket>&quot;Powerhome Solar&quot;</bucket>
+              <bucket>&quot;The Greer Group&quot;</bucket>
+              <bucket>&quot;Nugget&quot;</bucket>
+              <bucket>&quot;Mako Medical Laboratories&quot;</bucket>
+              <bucket>&quot;Untappd&quot;</bucket>
+              <bucket>&quot;Medisuite&quot;</bucket>
+              <bucket>&quot;AvidXchange&quot;</bucket>
+              <bucket>&quot;Famous Toastery&quot;</bucket>
+              <bucket>&quot;BLDG-25&quot;</bucket>
+              <bucket>&quot;Printful&quot;</bucket>
+              <bucket>&quot;Quantico Tactical&quot;</bucket>
+              <bucket>&quot;Clean Juice&quot;</bucket>
+              <bucket>&quot;eAudit&quot;</bucket>
+              <bucket>&quot;Levvel&quot;</bucket>
+              <bucket>&quot;Directional Services&quot;</bucket>
+              <bucket>&quot;Saprex&quot;</bucket>
+              <bucket>&quot;Raymer Oil Company&quot;</bucket>
+              <bucket>&quot;Stake Center Locating&quot;</bucket>
+              <bucket>&quot;ORC Utility &amp; Infrastructure Land Services&quot;</bucket>
+              <bucket>&quot;Passport&quot;</bucket>
+              <bucket>&quot;MegaCorp Logistics&quot;</bucket>
+              <bucket>&quot;MyComputerCareer&quot;</bucket>
+              <bucket>&quot;Prescient Company&quot;</bucket>
+              <bucket>&quot;PresPro Homes&quot;</bucket>
+              <bucket>&quot;Kaimetrix&quot;</bucket>
+              <bucket>&quot;Transportation Insight&quot;</bucket>
+              <bucket>&quot;Blackstone Fire Control&quot;</bucket>
+              <bucket>&quot;National Coatings&quot;</bucket>
+              <bucket>&quot;Aeroflow Healthcare&quot;</bucket>
+              <bucket>&quot;Walk West&quot;</bucket>
+              <bucket>&quot;DMA Holdings&quot;</bucket>
+              <bucket>&quot;23rd Group&quot;</bucket>
+              <bucket>&quot;LMK Clinical Research Consulting&quot;</bucket>
+              <bucket>&quot;Millhouse Logistics&quot;</bucket>
+              <bucket>&quot;Eva Garland Consulting&quot;</bucket>
+              <bucket>&quot;Proforma Springboard Promotions&quot;</bucket>
+              <bucket>&quot;Tech Talent South&quot;</bucket>
+              <bucket>&quot;Commercial Services&quot;</bucket>
+              <bucket>&quot;Done Right Merchandising&quot;</bucket>
+              <bucket>&quot;RapidOps&quot;</bucket>
+              <bucket>&quot;International Ceramic Construction&quot;</bucket>
+              <bucket>&quot;Axiom Path&quot;</bucket>
+              <bucket>&quot;Symmetry Financial Group&quot;</bucket>
+              <bucket>&quot;Bluechip Retail&quot;</bucket>
+              <bucket>&quot;Neo Prism Solutions&quot;</bucket>
+              <bucket>&quot;Torrent Consulting&quot;</bucket>
+              <bucket>&quot;SMR Holdings&quot;</bucket>
+              <bucket>&quot;1st Choice Construction Management&quot;</bucket>
+              <bucket>&quot;Geo Owl&quot;</bucket>
+              <bucket>&quot;Rent Ready&quot;</bucket>
+              <bucket>&quot;Xtreme Park Adventures&quot;</bucket>
+              <bucket>&quot;Netsertive&quot;</bucket>
+              <bucket>&quot;Grover Gaming&quot;</bucket>
+              <bucket>&quot;Spangler Restoration&quot;</bucket>
+              <bucket>&quot;Kingsmen Software&quot;</bucket>
+              <bucket>&quot;ImagineSoftware&quot;</bucket>
+              <bucket>&quot;WamBam Fence&quot;</bucket>
+              <bucket>&quot;Accelerate Solar&quot;</bucket>
+              <bucket>&quot;Appraisal Nation&quot;</bucket>
+              <bucket>&quot;Bespoke Sports &amp; Entertainment&quot;</bucket>
+              <bucket>&quot;Tresata&quot;</bucket>
+              <bucket>&quot;Emergency Restoration Xperts&quot;</bucket>
+              <bucket>&quot;Fathom Realty&quot;</bucket>
+              <bucket>&quot;Go Fish Digital&quot;</bucket>
+              <bucket>&quot;Zentra&quot;</bucket>
+              <bucket>&quot;Adwerx&quot;</bucket>
+              <bucket>&quot;Proforma BrandCentric Solutions&quot;</bucket>
+              <bucket>&quot;MacGregor Partners&quot;</bucket>
+              <bucket>&quot;Benton Roofing&quot;</bucket>
+              <bucket>&quot;Summus Group&quot;</bucket>
+              <bucket>&quot;Cogent Analytics&quot;</bucket>
+              <bucket>&quot;Worldwide Insurance Network&quot;</bucket>
+              <bucket>&quot;Zenmonics&quot;</bucket>
+              <bucket>&quot;Valiant Solutions&quot;</bucket>
+              <bucket>&quot;Union&quot;</bucket>
+              <bucket>&quot;BridgePoint Construction&quot;</bucket>
+              <bucket>&quot;Enviro-Master International Franchise&quot;</bucket>
+              <bucket>&quot;Opex Technologies&quot;</bucket>
+              <bucket>&quot;United Services Group&quot;</bucket>
+              <bucket>&quot;Nuventra Pharma Sciences&quot;</bucket>
+              <bucket>&quot;Dry Pro Foundation and Crawlspace Specialists&quot;</bucket>
+              <bucket>&quot;McKee Homes&quot;</bucket>
+              <bucket>&quot;Sheds Direct&quot;</bucket>
+              <bucket>&quot;Transportation Impact&quot;</bucket>
+              <bucket>&quot;All American Entertainment&quot;</bucket>
+              <bucket>&quot;Walsingham Group&quot;</bucket>
+              <bucket>&quot;Greasecycle&quot;</bucket>
+              <bucket>&quot;Search Solution Group&quot;</bucket>
+              <bucket>&quot;Consolidated Asset Recovery Systems&quot;</bucket>
+              <bucket>&quot;ITI Communications&quot;</bucket>
+              <bucket>&quot;MYCA Material Handling Solutions&quot;</bucket>
+              <bucket>&quot;USConnect&quot;</bucket>
+              <bucket>&quot;Accelogix&quot;</bucket>
+              <bucket>&quot;Go-Forth Pest Control&quot;</bucket>
+              <bucket>&quot;OnPar Technologies&quot;</bucket>
+              <bucket>&quot;Takeout Central&quot;</bucket>
+              <bucket>&quot;American Builders&quot;</bucket>
+              <bucket>&quot;Mind Your Business&quot;</bucket>
+              <bucket>&quot;Fab-Tec&quot;</bucket>
+              <bucket>&quot;Quicklotz Liquidations&quot;</bucket>
+              <bucket>&quot;Scott Brown Media Group&quot;</bucket>
+              <bucket>&quot;Appogee&quot;</bucket>
+              <bucket>&quot;Unity FI Solutions&quot;</bucket>
+              <bucket>&quot;Mountain Showcase Group&quot;</bucket>
+              <bucket>&quot;LBA Haynes Strand&quot;</bucket>
+              <bucket>&quot;Cloud for Good&quot;</bucket>
+              <bucket>&quot;Bold Construction&quot;</bucket>
+              <bucket>&quot;Devada&quot;</bucket>
+              <bucket>&quot;Local Loyalty Marketing Solutions NC&quot;</bucket>
+              <bucket>&quot;Eanes Heating and Air&quot;</bucket>
+              <bucket>&quot;Jackrabbit Technologies&quot;</bucket>
+              <bucket>&quot;Carolinas IT&quot;</bucket>
+              <bucket>&quot;Keen Decision Systems&quot;</bucket>
+              <bucket>&quot;Portable Oxygen Solutions&quot;</bucket>
+              <bucket>&quot;Nexcom&quot;</bucket>
+              <bucket>&quot;Outer Banks Blue&quot;</bucket>
+              <bucket>&quot;Synchrogistics&quot;</bucket>
+              <bucket>&quot;Teguar Corporation&quot;</bucket>
+              <bucket>&quot;919 Marketing&quot;</bucket>
+              <bucket>&quot;Thorburn Associates&quot;</bucket>
+              <bucket>&quot;Cross Media Corporation&quot;</bucket>
+              <bucket>&quot;Profit Advisory Group&quot;</bucket>
+              <bucket>&quot;Client Savvy&quot;</bucket>
+              <bucket>&quot;Lighthouse Lab Services&quot;</bucket>
+              <bucket>&quot;Open Sky Group&quot;</bucket>
+              <bucket>&quot;Buildingstars of Charlotte&quot;</bucket>
+              <bucket>&quot;Triangle Insights Group&quot;</bucket>
+              <bucket>&quot;OnceLogix&quot;</bucket>
+              <bucket>&quot;First Flight Solutions&quot;</bucket>
+              <bucket>&quot;Corevist&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;NC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]' />
+              <tooltip column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+              <tooltip column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Multiple Values]</rows>
+        <cols>([federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk] / [federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:name:nk])</cols>
+      </table>
+      <simple-id uuid='{111DE458-9579-4FFA-8ED2-2DCEF7260775}' />
+    </worksheet>
+    <worksheet name='Industry Vs Revenue'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]</cols>
+      </table>
+      <simple-id uuid='{0DA66FFE-0883-4A4D-8237-7E4828368621}' />
+    </worksheet>
+    <worksheet name='Revenue Generation'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Revenue Generation by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+              <size column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true' />
+        <cols />
+      </table>
+      <simple-id uuid='{795B3F57-C379-44F3-906D-1B1D24D04D88}' />
+    </worksheet>
+    <worksheet name='Revenue Generation CA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Revenue Generation by Industry in CA</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;CA&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#72b966' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#f17b79' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]</cols>
+      </table>
+      <simple-id uuid='{6A1D9583-9F18-4B36-97E2-0CC2C106DCC6}' />
+    </worksheet>
+    <worksheet name='Revenue Generation Charlotte'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run> Revenue Generation by Industry in Charlotte</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='member' level='[none:city:nk]' member='&quot;Charlotte&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;NC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#72b966' />
+            <format attr='title' class='0' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' scope='rows' value='Revenue (million $)' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#f17b79' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]</cols>
+      </table>
+      <simple-id uuid='{A4A3EF0E-6903-44E1-B30F-5E3404E97775}' />
+    </worksheet>
+    <worksheet name='Revenue Generation NC'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top Revenue Generation Industry in NC</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;NC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#72b966' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' value='#f17b79' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]</cols>
+      </table>
+      <simple-id uuid='{F7A72D25-3D68-4248-81D3-5EFA3F69078A}' />
+    </worksheet>
+    <worksheet name='Revenue Vs Workers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Revenue Vs  Workers - Correlation</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[workers]' derivation='Sum' name='[sum:workers:qk]' pivot='key' type='quantitative' />
+            <column caption='Workers' datatype='real' name='[workers]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]'>
+            <groupfilter function='member' level='[none:city:nk]' member='&quot;Charlotte&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter function='member' level='[none:state:nk]' member='&quot;NC&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:workers:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{C65D214E-7589-4781-8EA0-F2FDE9226986}' />
+    </worksheet>
+    <worksheet name='Top 10 Growth'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 10 Growth % States</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column-instance column='[growth]' derivation='Max' name='[max:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter from='&quot;AL&quot;' function='range' level='[none:state:nk]' to='&quot;WY&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Longitude (generated)]' field-type='quantitative' max='-6936222.0854144115' min='-16055372.927709322' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Latitude (generated)]' field-type='quantitative' max='7040902.491799077' min='2417919.4313472966' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]' />
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[max:growth:qk]' />
+              <geometry column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Latitude (generated)]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{515EF9B5-0B29-44C5-B112-BFF092B319E7}' />
+    </worksheet>
+    <worksheet name='Top 10 Industries'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' />
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]</cols>
+      </table>
+      <simple-id uuid='{D5120CA4-3630-4513-B01E-0DC6CEBEC7C8}' />
+    </worksheet>
+    <worksheet name='Top 10 Revenue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 10 Revenue Generated States</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column-instance column='[state]' derivation='None' name='[none:state:nk]' pivot='key' type='nominal' />
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+            <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[revenue]' derivation='Sum' name='[sum:revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter from='&quot;AL&quot;' function='range' level='[none:state:nk]' to='&quot;WY&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' palette='tableau-map-temperatur' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:state:nk]' />
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' />
+              <geometry column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Latitude (generated)]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{9256A802-53D8-4323-A59F-BCE6DF132480}' />
+    </worksheet>
+    <worksheet name='Top 5 Revenue %'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[revenue]' derivation='Sum' name='[pcto:sum:revenue:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' type='PctTotal' />
+            </column-instance>
+            <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' />
+              <size column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[pcto:sum:revenue:qk:3]' />
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[pcto:sum:revenue:qk:3]' />
+              <text column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <percentages enabled='true' mode='cell-in-pane' />
+      </table>
+      <simple-id uuid='{95018A67-7B5B-4233-87A6-47E59E64CB5E}' />
+    </worksheet>
+    <worksheet name='Workers Vs Growth Correlation '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='INC_2019_data (INC_2019_data)' name='federated.1pxe8hk1aexorr1dh5qnz0ttzwls' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1pxe8hk1aexorr1dh5qnz0ttzwls'>
+            <column caption='Growth' datatype='real' name='[growth]' role='measure' type='quantitative' />
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[growth]' derivation='Sum' name='[sum:growth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[workers]' derivation='Sum' name='[sum:workers:qk]' pivot='key' type='quantitative' />
+            <column caption='Workers' datatype='real' name='[workers]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:workers:qk]</rows>
+        <cols>[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:growth:qk]</cols>
+      </table>
+      <simple-id uuid='{7241B122-545C-4829-A616-F62E4A2869B3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>INC 5000 Companies Data Visualization for Year 2019</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='12' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='19' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='13' param='vert' w='98400' x='800' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='5250' id='15' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='92750' id='14' w='98400' x='800' y='6250'>
+                <zone h='46375' id='16' name='Industry Vs Revenue' w='52300' x='800' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='46375' id='17' name='Top 10 Industries' w='46100' x='53100' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='46375' id='21' name='Top 5 Revenue %' w='52300' x='800' y='52625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='46375' id='22' name='Revenue Generation' w='46100' x='53100' y='52625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>INC 5000 Companies Data Visualization for Year 2019</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='42' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='41' param='vert' w='98400' x='800' y='1000'>
+                <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='5250' id='15' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46375' id='16' is-fixed='true' name='Industry Vs Revenue' w='52300' x='800' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46375' id='17' is-fixed='true' name='Top 10 Industries' w='46100' x='53100' y='6250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46375' id='21' is-fixed='true' name='Top 5 Revenue %' w='52300' x='800' y='52625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46375' id='22' is-fixed='true' name='Revenue Generation' w='46100' x='53100' y='52625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{87BE3521-81B2-4D31-9140-031BF2782FE6}' />
+    </dashboard>
+    <dashboard name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='10' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='5' param='vert' w='47300' x='800' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='6' w='47300' x='800' y='1000'>
+                <zone h='86500' id='8' name='Top 10 Growth' w='47300' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='11500' id='11' name='Top 10 Growth' pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[max:growth:qk]' w='47300' x='800' y='87500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' fixed-size='511' h='98000' id='14' is-fixed='true' w='51100' x='48100' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='86500' id='9' param='vert' w='51100' x='48100' y='1000'>
+                <zone h='86500' id='12' name='Top 10 Revenue' w='51100' x='48100' y='1000'>
+                  <layout-cache minheight='244' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='11500' id='15' param='vert' w='51100' x='48100' y='87500'>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' fixed-size='52' h='7500' id='13' is-fixed='true' name='Top 10 Revenue' pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' w='51100' x='48100' y='87500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='35' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='34' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='86500' id='8' is-fixed='true' name='Top 10 Growth' w='47300' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='11500' id='11' name='Top 10 Growth' pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[max:growth:qk]' w='47300' x='800' y='87500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='86500' id='12' is-fixed='true' name='Top 10 Revenue' w='51100' x='48100' y='1000'>
+                  <layout-cache minheight='244' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' fixed-size='52' h='7500' id='13' name='Top 10 Revenue' pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' w='51100' x='48100' y='87500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{950693F2-0B90-4754-8966-A9A6F889E0F3}' />
+    </dashboard>
+    <dashboard name='Dashboard 3'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='98400' x='800' y='1000'>
+              <zone h='43250' id='3' name='Revenue Generation NC' w='55711' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='52625' id='9' name='Growth Vs Revenue NC' w='42689' x='56511' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45375' id='10' name='Revenue Generation Charlotte' w='55691' x='800' y='53625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='45375' id='11' name='Growth Vs Revenue Charlotte' w='42709' x='56491' y='53625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='9375' id='8' name='Revenue Generation NC' pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' w='55711' x='800' y='44250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='29' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='28' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='43250' id='3' is-fixed='true' name='Revenue Generation NC' w='55711' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='9375' id='8' name='Revenue Generation NC' pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' w='55711' x='800' y='44250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='52625' id='9' is-fixed='true' name='Growth Vs Revenue NC' w='42689' x='56511' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45375' id='10' is-fixed='true' name='Revenue Generation Charlotte' w='55691' x='800' y='53625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45375' id='11' is-fixed='true' name='Growth Vs Revenue Charlotte' w='42709' x='56491' y='53625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7F64DB3D-3438-4CF3-9242-742F6D33775A}' />
+    </dashboard>
+    <dashboard name='Dashboard 4'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='58125' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='58125' id='5' w='98400' x='800' y='1000'>
+              <zone h='29063' id='3' name='Revenue Vs Workers' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='29062' id='10' name='Growth Vs Revenue Correlation' w='98400' x='800' y='30063'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='39875' id='11' name='Workers Vs Growth Correlation ' w='98400' x='800' y='59125'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='27' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='26' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='225' h='29063' id='3' is-fixed='true' name='Revenue Vs Workers' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='224' h='29062' id='10' is-fixed='true' name='Growth Vs Revenue Correlation' w='98400' x='800' y='30063'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39875' id='11' is-fixed='true' name='Workers Vs Growth Correlation ' w='98400' x='800' y='59125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A49CAD12-C036-4539-9407-977430349AE9}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Industry Vs Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3BB10D65-DD62-4510-BC29-26D62C5EAD7D}' />
+    </window>
+    <window class='worksheet' name='Top 10 Industries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{975AB02E-7F24-43CA-B23E-BBDB24B1BF81}' />
+    </window>
+    <window class='worksheet' name='Top 5 Revenue %'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{E09FB8F0-D1ED-47BC-851C-9D3BE042983B}' />
+    </window>
+    <window class='worksheet' name='Revenue Generation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EC44F2A6-D563-4133-80E4-B2FEE473DAB4}' />
+    </window>
+    <window class='worksheet' name='Top 10 Growth'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[max:growth:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CB8F7D7-EE5C-4C11-84B9-19EBCB1DA75C}' />
+    </window>
+    <window class='worksheet' name='Top 10 Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A50E1169-B69B-40FF-B08A-B290D2C3CE7F}' />
+    </window>
+    <window class='worksheet' name='Revenue Generation CA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E058DF7C-E83B-4A37-AB83-05E471471F99}' />
+    </window>
+    <window class='worksheet' name='Revenue Generation NC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D0AA5469-0EEF-4A60-BE30-B7E886220C9A}' />
+    </window>
+    <window class='worksheet' name='Growth vs Revenue Vs Workers NC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F29657E7-773F-44A8-9AE9-DA67100E8C84}' />
+    </window>
+    <window class='worksheet' name='Growth Vs Revenue NC'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E4B17B45-D03D-41A7-AE3B-82657CB8675E}' />
+    </window>
+    <window class='worksheet' name='Growth Vs Revenue Charlotte'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{990D7D95-3015-4DAD-B9E2-EB765A708712}' />
+    </window>
+    <window class='worksheet' name='Growth vs Revenue Vs Workers Charlotte'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{435D49C6-EAE6-48E8-BEBD-EC6BCCD4C168}' />
+    </window>
+    <window class='worksheet' name='Revenue Generation Charlotte'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[sum:revenue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{291671CC-9654-4D2B-A91F-74A3DDF3D27F}' />
+    </window>
+    <window class='worksheet' name='Revenue Vs Workers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pxe8hk1aexorr1dh5qnz0ttzwls].[none:industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7BBEA761-FB7F-4684-9B7C-8495F0D1B034}' />
+    </window>
+    <window class='worksheet' name='Workers Vs Growth Correlation '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2716A656-5837-499B-8841-5B452AC70D5E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Growth Vs Revenue Correlation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DD9C8CDF-BF61-4CF3-8CF6-18EFC9BE3F66}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Industry Vs Revenue'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Revenue Generation'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Industries'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 5 Revenue %'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='22' />
+      <simple-id uuid='{718B5E02-9FA7-4E04-AD33-78A44A12EC8D}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Top 10 Growth'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top 10 Revenue'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='12' />
+      <simple-id uuid='{603688CA-81D9-489B-BBA7-329785A11C9A}' />
+    </window>
+    <window class='dashboard' name='Dashboard 3'>
+      <viewpoints>
+        <viewpoint name='Growth Vs Revenue Charlotte' />
+        <viewpoint name='Growth Vs Revenue NC' />
+        <viewpoint name='Revenue Generation Charlotte'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Revenue Generation NC'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{626CC30B-868A-4E74-AD39-83C761758292}' />
+    </window>
+    <window class='dashboard' name='Dashboard 4'>
+      <viewpoints>
+        <viewpoint name='Growth Vs Revenue Correlation'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Revenue Vs Workers'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Workers Vs Growth Correlation '>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{27073D35-A22C-4A89-BB7D-A2375C154743}' />
+    </window>
+  </windows>
+</workbook>
